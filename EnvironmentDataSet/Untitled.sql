@@ -1,0 +1,7 @@
+-- CREATE TABLE CO2Emissions (
+-- 	Country_Name VARCHAR(255),
+--     Year_New INT(4),
+--     Series TEXT,
+--     Value_New MEDIUMTEXT
+--     );
+--     

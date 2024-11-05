@@ -89,15 +89,15 @@ class ArrayStack {
         int size = scanner.nextInt();
 
         ArrayStack stack = new ArrayStack(size);
+        System.out.println("\n*** Stack Menu ***");
+        System.out.println("1. Push element");
+        System.out.println("2. Pop element");
+        System.out.println("3. Peek at top element");
+        System.out.println("4. Search for an element");
+        System.out.println("5. Display stack");
+        System.out.println("6. Exit");
 
         while (true) {
-            System.out.println("\n*** Stack Menu ***");
-            System.out.println("1. Push element");
-            System.out.println("2. Pop element");
-            System.out.println("3. Peek at top element");
-            System.out.println("4. Search for an element");
-            System.out.println("5. Display stack");
-            System.out.println("6. Exit");
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
 
@@ -128,8 +128,7 @@ class ArrayStack {
 
                 case 6:
                     System.out.println("Exiting...");
-                    scanner.close();
-                    return;
+                    System.exit(0);
 
                 default:
                     System.out.println("Invalid choice. Please try again.");

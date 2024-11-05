@@ -82,15 +82,14 @@ class CircularQueue {
         System.out.print("Enter the size of the queue: ");
         int c = scanner.nextInt();
         CircularQueue q = new CircularQueue(c);
-
+        System.out.println("\n *** Circular Queue Menu ***");
+        System.out.println("1. Add element");
+        System.out.println("2. Remove element");
+        System.out.println("3. Is the queue Full?");
+        System.out.println("4. Is the queue Empty?");
+        System.out.println("5. Display queue");
+        System.out.println("6. Exit");
         while (true) {
-            System.out.println("\n *** Circular Queue Menu ***");
-            System.out.println("1. Add element");
-            System.out.println("2. Remove element");
-            System.out.println("3. Is the queue Full?");
-            System.out.println("4. Is the queue Empty?");
-            System.out.println("5. Display queue");
-            System.out.println("6. Exit");
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
 

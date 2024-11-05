@@ -96,13 +96,13 @@ public class DoubleLinkedList {
         DoubleLinkedList dlist = new DoubleLinkedList();
         Scanner scanner = new Scanner(System.in);
         int choice;
+        System.out.println("\n*** Doubly Linked List Menu ***");
+        System.out.println("1. Add Node");
+        System.out.println("2. Remove Node");
+        System.out.println("3. Search Node");
+        System.out.println("4. Display List");
+        System.out.println("5. Exit");
         do {
-            System.out.println("\n*** Doubly Linked List Menu ***");
-            System.out.println("1. Add Node");
-            System.out.println("2. Remove Node");
-            System.out.println("3. Search Node");
-            System.out.println("4. Display List");
-            System.out.println("5. Exit");
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
 

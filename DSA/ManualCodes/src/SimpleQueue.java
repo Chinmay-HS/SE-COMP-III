@@ -57,13 +57,13 @@ public class SimpleQueue {
         System.out.println("Enter the size of queue: ");
         int c = scanner.nextInt();
         SimpleQueue q = new SimpleQueue(c);
+        System.out.println("\n *** Simple Queue Menu ***");
+        System.out.println("1. Add element");
+        System.out.println("2. Remove element");
+        System.out.println("3. Display Queue");
+        System.out.println("4. Front");
+        System.out.println("5. Exit");
         while (true){
-            System.out.println("\n *** Simple Queue Menu ***");
-            System.out.println("1. Add element");
-            System.out.println("2. Remove element");
-            System.out.println("3. Display Queue");
-            System.out.println("4. Front");
-            System.out.println("5. Exit");
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
             switch (choice) {
